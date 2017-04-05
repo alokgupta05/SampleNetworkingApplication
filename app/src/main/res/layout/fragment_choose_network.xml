@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="20dp"
+              android:clickable="true"
+              android:orientation="vertical"
+              android:background="@android:color/white"
+>
+    <TextView
+            android:text="Bound Service"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content" android:id="@+id/textViewBoundService"
+            android:layout_weight="1"/>
+    <TextView
+            android:text="UnBound Service"
+            android:layout_width="match_parent"
+            android:clickable="true" android:gravity="center"
+
+            android:layout_height="wrap_content" android:id="@+id/textViewUnBoundService"
+            android:layout_weight="1"/>
+    <TextView
+            android:text="Intent Service"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_height="wrap_content" android:id="@+id/textViewIntentService"
+            android:layout_weight="1"/>
+    <TextView
+            android:text="Thread"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_height="wrap_content" android:id="@+id/textViewThread"
+            android:layout_weight="1"/>
+    <TextView
+            android:text="Async Task"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content" android:id="@+id/textViewAsyncTask"
+            android:layout_weight="1"/>
+</LinearLayout>
